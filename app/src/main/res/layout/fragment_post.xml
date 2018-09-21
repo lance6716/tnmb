@@ -14,7 +14,7 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<com.hippo.nimingban.widget.ContentLayout
+<com.hippo.tnmb.widget.ContentLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/content_layout"
     android:layout_width="match_parent"

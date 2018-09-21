@@ -19,7 +19,7 @@
 # For bug report
 -keepattributes SourceFile,LineNumberTable
 
--keepclassmembers class com.hippo.nimingban.client.ac.data.** {
+-keepclassmembers class com.hippo.tnmb.client.ac.data.** {
     public <fields>;
 }
 

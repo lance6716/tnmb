@@ -15,7 +15,7 @@
   ~ limitations under the License.
   -->
 
-<com.hippo.nimingban.widget.UnderLineRelativeLayout
+<com.hippo.tnmb.widget.UnderLineRelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -54,7 +54,7 @@
 
     </LinearLayout>
 
-    <com.hippo.nimingban.widget.LinkifyTextView
+    <com.hippo.tnmb.widget.LinkifyTextView
         android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
         android:textColor="?android:attr/textColorPrimary"
         android:textColorLink="?attr/colorAccent"/>
 
-    <com.hippo.nimingban.widget.LoadImageView
+    <com.hippo.tnmb.widget.LoadImageView
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/thumb"
         android:layout_width="@dimen/list_thumb_width"
@@ -73,4 +73,4 @@
         android:layout_marginTop="8dp"
         app:retryType="longClick"/>
 
-</com.hippo.nimingban.widget.UnderLineRelativeLayout>
+</com.hippo.tnmb.widget.UnderLineRelativeLayout>

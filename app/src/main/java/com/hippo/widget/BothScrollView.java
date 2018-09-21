@@ -41,7 +41,7 @@ import android.widget.EdgeEffect;
 import android.widget.FrameLayout;
 import android.widget.ScrollView;
 
-import com.hippo.nimingban.R;
+import com.hippo.tnmb.R;
 
 import java.util.List;
 

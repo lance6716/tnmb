@@ -26,7 +26,7 @@ import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.widget.ScrollView;
 
-import com.hippo.nimingban.R;
+import com.hippo.tnmb.R;
 
 public class IndicatingScrollView extends ScrollView {
 

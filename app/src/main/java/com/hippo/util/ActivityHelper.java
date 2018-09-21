@@ -24,7 +24,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.widget.Toast;
 
-import com.hippo.nimingban.R;
+import com.hippo.tnmb.R;
 
 public class ActivityHelper {
 

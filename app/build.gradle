@@ -19,7 +19,7 @@ android {
     compileSdkVersion 27
 
     defaultConfig {
-        applicationId "com.hippo.nimingban"
+        applicationId "com.hippo.tnmb"
         minSdkVersion 14
         targetSdkVersion 27
         versionCode 53
@@ -46,21 +46,7 @@ android {
 
     signingConfigs {
         debug {
-            if (project.rootProject.file("local.properties").exists()) {
-                Properties properties = new Properties()
-                properties.load(project.rootProject.file("local.properties").newDataInputStream())
-                def store_file = properties.getProperty("storeFile")
-                def store_password = properties.getProperty("storePassword")
-                def key_alias = properties.getProperty("keyAlias")
-                def key_password = properties.getProperty("keyPassword")
 
-                storeFile file(store_file)
-                storePassword store_password
-                keyAlias key_alias
-                keyPassword key_password
-                v1SigningEnabled true
-                v2SigningEnabled true
-            }
         }
     }
 }

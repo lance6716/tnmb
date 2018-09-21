@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"/>
 
-    <com.hippo.nimingban.widget.FontTextView
+    <com.hippo.tnmb.widget.FontTextView
         android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
         android:ellipsize="end"
         android:textColorLink="?attr/colorAccent"/>
 
-    <com.hippo.nimingban.widget.LoadImageView
+    <com.hippo.tnmb.widget.LoadImageView
         android:id="@+id/thumb"
         android:layout_width="@dimen/list_thumb_width"
         android:layout_height="@dimen/list_thumb_height"

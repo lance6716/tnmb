@@ -22,7 +22,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <com.hippo.nimingban.widget.DrawerLayoutChildLinearLayout
+    <com.hippo.tnmb.widget.DrawerLayoutChildLinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -35,22 +35,22 @@
             android:elevation="4dp"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
-        <com.hippo.nimingban.widget.ContentLayout
+        <com.hippo.tnmb.widget.ContentLayout
             android:id="@+id/content_layout"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"/>
 
-    </com.hippo.nimingban.widget.DrawerLayoutChildLinearLayout>
+    </com.hippo.tnmb.widget.DrawerLayoutChildLinearLayout>
 
-    <com.hippo.nimingban.widget.LeftDrawer
+    <com.hippo.tnmb.widget.LeftDrawer
         android:id="@+id/left_drawer"
         android:layout_width="256dp"
         android:layout_height="match_parent"
         android:layout_gravity="left"
         android:background="?android:attr/colorBackground"/>
 
-    <com.hippo.nimingban.widget.RightDrawer
+    <com.hippo.tnmb.widget.RightDrawer
         android:id="@+id/right_drawer"
         android:layout_width="192dp"
         android:layout_height="match_parent"

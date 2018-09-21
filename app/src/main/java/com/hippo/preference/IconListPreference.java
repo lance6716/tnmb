@@ -32,7 +32,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.hippo.nimingban.R;
+import com.hippo.tnmb.R;
 import com.hippo.yorozuya.LayoutUtils;
 
 public class IconListPreference extends ListPreference {

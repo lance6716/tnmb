@@ -24,7 +24,7 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-import com.hippo.nimingban.R;
+import com.hippo.tnmb.R;
 
 public class CheckBoxDialogBuilder extends AlertDialog.Builder {
 

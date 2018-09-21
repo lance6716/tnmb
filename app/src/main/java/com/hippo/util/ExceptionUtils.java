@@ -22,8 +22,8 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import com.hippo.network.ResponseCodeException;
-import com.hippo.nimingban.R;
-import com.hippo.nimingban.client.NMBException;
+import com.hippo.tnmb.R;
+import com.hippo.tnmb.client.NMBException;
 import com.hippo.yorozuya.Say;
 
 import org.apache.http.conn.ConnectTimeoutException;

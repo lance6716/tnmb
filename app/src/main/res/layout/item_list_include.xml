@@ -47,7 +47,7 @@
 
     </LinearLayout>
 
-    <com.hippo.nimingban.widget.FontTextView
+    <com.hippo.tnmb.widget.FontTextView
         android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
         android:ellipsize="end"
         android:textColorLink="?attr/colorAccent"/>
 
-    <com.hippo.nimingban.widget.LoadImageView
+    <com.hippo.tnmb.widget.LoadImageView
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/thumb"
         android:layout_width="@dimen/list_thumb_width"
@@ -77,7 +77,7 @@
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
-        <com.hippo.nimingban.widget.MarqueeReplyView
+        <com.hippo.tnmb.widget.MarqueeReplyView
             android:id="@+id/reply"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

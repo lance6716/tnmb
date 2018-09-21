@@ -15,7 +15,7 @@
   ~ limitations under the License.
   -->
 
-<com.hippo.nimingban.widget.BottomShadowScrollView
+<com.hippo.tnmb.widget.BottomShadowScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="0dp"
@@ -29,4 +29,4 @@
     <include
         layout="@layout/activity_type_send_content_layout"/>
 
-</com.hippo.nimingban.widget.BottomShadowScrollView>
+</com.hippo.tnmb.widget.BottomShadowScrollView>

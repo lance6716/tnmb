@@ -15,7 +15,7 @@
   ~ limitations under the License.
   -->
 
-<com.hippo.nimingban.widget.HackyViewPager
+<com.hippo.tnmb.widget.HackyViewPager
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/view_pager"
     android:layout_width="match_parent"

@@ -28,7 +28,7 @@ import android.view.View;
 import android.widget.Checkable;
 import android.widget.CompoundButton;
 
-import com.hippo.nimingban.R;
+import com.hippo.tnmb.R;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

@@ -16,7 +16,7 @@
 
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hippo.nimingban">
+    package="com.hippo.tnmb">
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -25,7 +25,7 @@
     <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
-        android:name="com.hippo.nimingban.NMBApplication"
+        android:name="com.hippo.tnmb.NMBApplication"
         android:allowBackup="true"
         android:label="@string/app_name"
         android:icon="@mipmap/ic_launcher"
@@ -33,7 +33,7 @@
         android:largeHeap="true">
 
         <activity
-            android:name="com.hippo.nimingban.ui.ListActivity"
+            android:name="com.hippo.tnmb.ui.ListActivity"
             android:theme="@style/NormalActivity"
             android:configChanges="screenSize|uiMode|orientation"
             android:screenOrientation="unspecified"
@@ -49,8 +49,8 @@
         </activity>
 
         <activity-alias
-            android:name="com.hippo.nimingban.ui.ListActivityIbuki"
-            android:targetActivity="com.hippo.nimingban.ui.ListActivity"
+            android:name="com.hippo.tnmb.ui.ListActivityIbuki"
+            android:targetActivity="com.hippo.tnmb.ui.ListActivity"
             android:icon="@mipmap/ic_launcher_ibuki"
             android:enabled="false">
 
@@ -62,7 +62,7 @@
         </activity-alias>
 
         <activity
-            android:name="com.hippo.nimingban.ui.PostActivity"
+            android:name="com.hippo.tnmb.ui.PostActivity"
             android:theme="@style/SwipeActivity"
             android:configChanges="screenSize|uiMode|orientation"
             android:screenOrientation="unspecified">
@@ -73,11 +73,7 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data android:scheme="http"/>
                 <data android:scheme="https"/>
-                <data android:host="h.nimingban.com"/>
-                <data android:host="h.acfun.tv"/>
-                <data android:host="hacfun.tv"/>
-                <data android:host="adnmb.com"/>
-                <data android:host="adnmb1.com"/>
+                <data android:host="tnmb.org"/>
                 <data android:pathPrefix="/t/"/>
                 <data android:pathPrefix="/m/t/"/>
             </intent-filter>
@@ -85,14 +81,14 @@
         </activity>
 
         <activity
-            android:name="com.hippo.nimingban.ui.GalleryActivity2"
+            android:name="com.hippo.tnmb.ui.GalleryActivity2"
             android:label="@string/gallery"
             android:theme="@style/SwipeActivity"
             android:configChanges="screenSize|uiMode|orientation"
             android:screenOrientation="unspecified"/>
 
         <activity
-            android:name="com.hippo.nimingban.ui.TypeSendActivity"
+            android:name="com.hippo.tnmb.ui.TypeSendActivity"
             android:theme="@style/NormalActivity"
             android:configChanges="screenSize|uiMode|orientation"
             android:screenOrientation="unspecified"
@@ -113,102 +109,102 @@
         </activity>
 
         <activity
-            android:name="com.hippo.nimingban.ui.DoodleActivity"
+            android:name="com.hippo.tnmb.ui.DoodleActivity"
             android:label="@string/doodle"
             android:theme="@style/NormalActivity"
             android:configChanges="screenSize|uiMode|orientation"
             android:screenOrientation="unspecified"/>
 
         <activity
-            android:name="com.hippo.nimingban.ui.DraftActivity"
+            android:name="com.hippo.tnmb.ui.DraftActivity"
             android:label="@string/draft"
             android:theme="@style/NormalActivity"
             android:configChanges="screenSize|uiMode|orientation"
             android:screenOrientation="unspecified"/>
 
         <activity
-            android:name="com.hippo.nimingban.ui.FeedActivity"
+            android:name="com.hippo.tnmb.ui.FeedActivity"
             android:label="@string/feed"
             android:theme="@style/NormalActivity"
             android:configChanges="screenSize|uiMode|orientation"
             android:screenOrientation="unspecified"/>
 
         <activity
-            android:name="com.hippo.nimingban.ui.SettingsActivity"
+            android:name="com.hippo.tnmb.ui.SettingsActivity"
             android:label="@string/settings"
             android:theme="@style/AppTheme"
             android:configChanges="screenSize|uiMode|orientation"
             android:screenOrientation="unspecified"/>
 
         <activity
-            android:name="com.hippo.nimingban.ui.DirPickerActivity"
+            android:name="com.hippo.tnmb.ui.DirPickerActivity"
             android:label="@string/dir_picker"
             android:theme="@style/NormalActivity"
             android:configChanges="screenSize|uiMode|orientation"
             android:screenOrientation="unspecified"/>
 
         <activity
-            android:name="com.hippo.nimingban.ui.SortForumsActivity"
+            android:name="com.hippo.tnmb.ui.SortForumsActivity"
             android:label="@string/sort_forums"
             android:theme="@style/NormalActivity"
             android:configChanges="screenSize|uiMode|orientation"
             android:screenOrientation="unspecified"/>
 
         <activity
-            android:name="com.hippo.nimingban.ui.SearchActivity"
+            android:name="com.hippo.tnmb.ui.SearchActivity"
             android:label="@string/search"
             android:theme="@style/NormalActivity"
             android:configChanges="screenSize|uiMode|orientation"
             android:screenOrientation="unspecified"/>
 
         <activity
-            android:name="com.hippo.nimingban.ui.RecordActivity"
+            android:name="com.hippo.tnmb.ui.RecordActivity"
             android:label="@string/record"
             android:theme="@style/NormalActivity"
             android:configChanges="screenSize|uiMode|orientation"
             android:screenOrientation="unspecified"/>
 
         <activity
-            android:name="com.hippo.nimingban.ui.WebViewActivity"
+            android:name="com.hippo.tnmb.ui.WebViewActivity"
             android:theme="@style/NormalActivity"
             android:configChanges="screenSize|uiMode|orientation"
             android:screenOrientation="unspecified"/>
 
         <activity
-          android:name="com.hippo.nimingban.ui.QRCodeScanActivity"
+          android:name="com.hippo.tnmb.ui.QRCodeScanActivity"
           android:theme="@style/NormalActivity"
           android:configChanges="screenSize|uiMode|orientation"
           android:screenOrientation="unspecified"/>
 
         <activity
-            android:name="com.hippo.nimingban.wxapi.WXEntryActivity"
+            android:name="com.hippo.tnmb.wxapi.WXEntryActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
             android:exported="true"/>
 
         <activity
-            android:name="com.hippo.nimingban.ui.BringToForegroundActivity"
+            android:name="com.hippo.tnmb.ui.BringToForegroundActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
 
         <provider
-          android:name="com.hippo.nimingban.content.UniversalProvider"
-          android:authorities="com.hippo.nimingban.universal"
+          android:name="com.hippo.tnmb.content.UniversalProvider"
+          android:authorities="com.hippo.tnmb.universal"
           android:grantUriPermissions="true"
           android:exported="false"/>
 
         <provider
-            android:name="com.hippo.nimingban.content.ImageProvider"
-            android:authorities="com.hippo.nimingban.image"
+            android:name="com.hippo.tnmb.content.ImageProvider"
+            android:authorities="com.hippo.tnmb.image"
             android:grantUriPermissions="true"
             android:exported="false"/>
 
         <provider
-            android:name="com.hippo.nimingban.content.UpdateApkProvider"
-            android:authorities="com.hippo.nimingban.updateapk"
+            android:name="com.hippo.tnmb.content.UpdateApkProvider"
+            android:authorities="com.hippo.tnmb.updateapk"
             android:grantUriPermissions="true"
             android:exported="true"/>
 
         <service
-            android:name="com.hippo.nimingban.service.DaDiaoService"
+            android:name="com.hippo.tnmb.service.DaDiaoService"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/da_diao_service"/>
 

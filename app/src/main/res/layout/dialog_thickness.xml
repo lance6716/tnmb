@@ -26,7 +26,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp">
 
-    <com.hippo.nimingban.widget.ThicknessPreviewView
+    <com.hippo.tnmb.widget.ThicknessPreviewView
         android:id="@+id/thickness_preview_view"
         android:layout_width="match_parent"
         android:layout_height="128dp"/>

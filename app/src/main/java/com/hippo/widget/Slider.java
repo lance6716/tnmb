@@ -38,7 +38,7 @@ import android.view.ViewConfiguration;
 import android.widget.AbsoluteLayout;
 import android.widget.PopupWindow;
 
-import com.hippo.nimingban.R;
+import com.hippo.tnmb.R;
 import com.hippo.yorozuya.AnimationUtils;
 import com.hippo.yorozuya.LayoutUtils;
 import com.hippo.yorozuya.MathUtils;

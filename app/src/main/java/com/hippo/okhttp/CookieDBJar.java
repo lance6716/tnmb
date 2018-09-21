@@ -18,7 +18,7 @@ package com.hippo.okhttp;
 
 import android.text.TextUtils;
 
-import com.hippo.nimingban.network.SimpleCookieStore;
+import com.hippo.tnmb.network.SimpleCookieStore;
 
 import java.net.HttpCookie;
 import java.net.URL;
