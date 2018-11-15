@@ -1,4 +1,4 @@
-package com.hippo.nimingban.daogenerator;
+package com.hippo.tnmb.daogenerator;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
@@ -15,7 +15,7 @@ public class Forums {
 
     public static void main(String args[]) throws Exception {
         OkHttpClient client = new OkHttpClient.Builder().build();
-        Request request = new Request.Builder().url("http://adnmb1.com/Api/getForumList").build();
+        Request request = new Request.Builder().url("https://tnmb.org/Api/getForumList").build();
         Response response = client.newCall(request).execute();
 
         Gson gson = new Gson();

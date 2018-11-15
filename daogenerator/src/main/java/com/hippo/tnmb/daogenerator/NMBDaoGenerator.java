@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.hippo.nimingban.daogenerator;
+package com.hippo.tnmb.daogenerator;
 
 import java.io.File;
 
@@ -24,7 +24,7 @@ import de.greenrobot.daogenerator.Schema;
 
 public class NMBDaoGenerator {
 
-    private static final String PACKAGE = "com.hippo.nimingban.dao";
+    private static final String PACKAGE = "com.hippo.tnmb.dao";
     private static final String OUT_DIR = "../app/src/main/java-gen";
     private static final String DELETE_DIR = "../app/src/main/java-gen/com/hippo/nimingban/dao";
 

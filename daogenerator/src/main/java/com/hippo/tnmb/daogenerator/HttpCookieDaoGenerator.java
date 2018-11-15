@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.hippo.nimingban.daogenerator;
+package com.hippo.tnmb.daogenerator;
 
 import java.io.File;
 
